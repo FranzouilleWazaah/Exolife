@@ -6,7 +6,7 @@ display_gray(img_input);
 sizex = size(img_input, 1)
 sizey = size(img_input, 2)
 //Create output image
-img_output=zeros(sizex,sizey)
+img_output=zeros(sizex,sizey);
 
 for i=1:sizex
     for j=1:sizey
@@ -16,3 +16,4 @@ for i=1:sizex
 end;
 end;
 display_gray(img_output);
+s
