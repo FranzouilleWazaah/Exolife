@@ -1,13 +1,13 @@
-//1 Load Image
+//1 Chargement de l'image
 img_input=readpbm("C:\Users\DimitriXPS\Documents\GitHub\Exolife\Exolife\Images\Mission 1\Encelade_surface.pbm");
-//2 Display Image
+//2 Affichage image
 display_gray(img_input);
-// Size of input image
+// Taille de l'entrée de l'image
 sizex = size(img_input, 1)
 sizey = size(img_input, 2)
-//Create output image
+//Création image sortie
 img_output=zeros(sizex,sizey);
-
+// boucle pour modifier tous les pixels au dessus de 210
 for i=1:sizex
     for j=1:sizey
         if img_input(i,j) > 210 then
@@ -16,4 +16,4 @@ for i=1:sizex
 end;
 end;
 display_gray(img_output);
-s
+
