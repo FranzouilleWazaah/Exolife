@@ -11,7 +11,7 @@ function retour=normalisation(img_input)
     //boucle taille
     for i=1:wd
         for j=1:he
-            //valeur de gris du 
+            //valeur de gris du pixel
             pixel = img_input(i,j);
             //Soustraction de la valeur minimal 
             pixel = pixel - nivgrismin;
