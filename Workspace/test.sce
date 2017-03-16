@@ -1,5 +1,5 @@
 //1 Load Image
-img_input=readpbm('C:\Users\Franz\Git\Exolife\Images\Mission 1\Encelade_surface.pbm');
+img_input=readpbm('C:\Users\Franz\Git\Exolife\Stockage_Images_Missions\MissionB3_Terre.pbm');
 //2 Display Image
 display_gray(img_input);
 //3 Rename image
