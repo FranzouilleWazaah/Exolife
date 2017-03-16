@@ -1,4 +1,8 @@
+<<<<<<< HEAD
     // l'image source
+=======
+  // l'image source
+>>>>>>> origin/master
 img_input = readpbm("C:\Users\Franz\Git\Exolife\Images\Mission 7\HD215497.pbm");
     // dossier destination images séparées
 imgDestination = ("C:\Users\Franz\Git\Exolife\Stockage_Images_Missions\")
