@@ -4,4 +4,4 @@ img_input=readpbm("C:\Users\DimitriXPS\Documents\GitHub\Exolife\Exolife\Images\M
 
 
 // Do a normalisation on the image
-display_gray(normalisation(img_input))
+display_gray(histogramme(normalisation(img_input)));
