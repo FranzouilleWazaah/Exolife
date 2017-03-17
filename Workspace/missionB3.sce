@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-    // l'image source
-=======
-  // l'image source
->>>>>>> origin/master
-img_input = readpbm("C:\Users\Franz\Git\Exolife\Images\Mission 7\HD215497.pbm");
+img_input = readpbm("C:\Users\DimitriXPS\Documents\GitHub\Exolife\Exolife\Images\Mission 7\HD215497.pbm");
     // dossier destination images séparées
-imgDestination = ("C:\Users\Franz\Git\Exolife\Stockage_Images_Missions\")
+imgDestination = ("C:\Users\DimitriXPS\Documents\GitHub\Exolife\Exolife\Stockage_Images_Missions\")
 
       
     // filtre jaune + normalisation
@@ -23,4 +18,3 @@ writepbm(imgEau,imgDestination+"MissionB3_Eau.pbm");
 writepbm(imgZonesRouge,imgDestination+"MissionB3_ZonesRouge.pbm");
 writepbm(imgZonesBleuVegetation,imgDestination+"MissionB3_ZonesBleuVegetation.pbm");
 writepbm(imgVegetation,imgDestination+"MissionB3_VolcansMontagnes.pbm");
-

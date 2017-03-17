@@ -3,5 +3,10 @@ img_input=readpbm("C:\Users\DimitriXPS\Documents\GitHub\Exolife\Exolife\Images\M
 
 
 
+<<<<<<< HEAD
+// Do a normalisation on the image
+display_gray(histogramme(normalisation(img_input)));
+=======
 // Effectuer la fonction normalisation sur l'affichage
 display_gray(normalisation(img_input))
+>>>>>>> origin/Dimitri
